@@ -43,7 +43,7 @@ python engine/train_scale_net.py --model_save="./output_scale_net/model_save"
 
 ## Evaluate
 
-* Evaluate on the Real dataset.
+* Evaluate on the Real dataset. We provide our model checkpoint for evaluation [here](https://drive.google.com/drive/folders/1Qe-KOOvas2Y8ZjxiMiUGjfFkzc3u5uIt?usp=sharing).
 
 ```bash
 python evaluation/evaluate.py --resume_model="./output/model_save/model.pth" --dataset=Real --use_scale_net --sn_path='./output_scale_net/model_save/model.pth'
